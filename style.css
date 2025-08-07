@@ -1,0 +1,19 @@
+/* Custom styles for the Streamlit app */
+
+/* This targets the "selected" value box inside the selectbox */
+div[data-baseweb="select"] > div:first-child {
+    background-color: #FF4B4B;
+    color: white;
+}
+
+/* This targets the dropdown menu that pops up */
+[data-baseweb="popover"] ul {
+    background-color: #262730;
+    border: 1px solid #FF4B4B;
+}
+
+/* This targets the options on hover */
+li[role="option"]:hover {
+    background-color: #FF4B4B;
+    color: white;
+}
